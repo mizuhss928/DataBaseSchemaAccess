@@ -1,0 +1,4 @@
+information_schemaへアクセスする際の挙動を動作確認するためのプログラム
+
+information_schemaはschemaを跨ぐ全ての情報を格納しているため、
+クエリの際には必ずwhere句にtable_schemaを指定する。
